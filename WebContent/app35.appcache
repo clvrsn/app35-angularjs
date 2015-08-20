@@ -1,0 +1,9 @@
+CACHE MANIFEST
+# v5 2015-08-14
+NETWORK:
+/app35/rest*
+CACHE:
+index.html
+css/*
+img/*
+js/*

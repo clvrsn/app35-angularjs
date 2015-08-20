@@ -1,0 +1,14 @@
+<a data-ui-sref="newNote" class="btn-primary btn-lg nodecoration">Adicionar Nota</a>
+<table class="table notetable">
+    <tr>
+        <td><h3>Todas as Notas</h3></td>
+        <td></td>
+    </tr>
+    <tr data-ng-repeat="note in notes">
+        <td>{{note.descricao}}</td>
+        <td>
+            
+            <a class="btn btn-danger"  data-ng-click="deleteNote(note)">Delete</a>
+        </td>
+    </tr>
+</table>
